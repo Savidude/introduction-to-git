@@ -98,3 +98,30 @@ You will be asked to log into your GitHub account.
 We can now see our changes in the forked repository!
 
 ![](images/pushed-changes.png  "Pushed changes")
+
+### 4. Create a Pull Request
+
+If you go back to the [original project](https://github.com/Savidude/introduction-to-git), you would notice that the changes we pushed are not there yet. The changes are still in our forked repository.
+
+![](images/original-repo.png  "Original repo")
+
+It might become a security risk if anyone can push anything they want at any time to a project. In order to get our changes into the original project, we need to send a request to the owners of the original project. This is called a `Pull Request`.
+
+1. In your forked repository, select `Open pull request`.
+
+![](images/open-pr.png  "Open Pull Request")
+
+2. Review your changes and select `Create pull request`.
+
+![](images/compare-changes.png  "Create Pull Request")
+
+3. Provide a suitable title and description, and select `Create pull request`.
+
+![](images/create-pr.png  "Create Pull Request")
+![](images/view-pr.png  "View Pull Request")
+
+4. Wait for review and approval by the project owners.
+
+Once the project owners approve your changes, they can merge them on to the original project. Now, we will be able to see your contributions.
+
+![](images/merge-pr.png  "Merged Pull Request")
