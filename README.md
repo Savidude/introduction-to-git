@@ -16,11 +16,11 @@ As it stands, you cannot write to the project because you are not the owner. Whe
 
 The next step is to make changes to the copy of the project that we created. To do this, we need to download the project into our computer.
 
-1. Copy the URL if the project.
+1. Copy the URL of the project.
 
 ![](images/copy-url.png  "Copy URL")
 
-2. Open Git Bash and navigate to the location you want to clone the project to
+2. Open Git Bash and navigate to the location you want to clone the project into
 
 ![](images/navigate-parent.png  "Navigate")
 
@@ -62,7 +62,7 @@ $ git add Savidu\ Dias/index.html
 
 3. Commit the changes
 
-In git, we can give a short message describing the changes we have made. We call this committing. This is done with the `git commit` command.
+In git, we can give a short message describing the changes we have made. We call this "committing". This is done with the `git commit` command.
 
 ```bash
 $ git commit -m "Hello World program by Savidu Dias"
@@ -125,3 +125,15 @@ It might become a security risk if anyone can push anything they want at any tim
 Once the project owners approve your changes, they can merge them on to the original project. Now, we will be able to see your contributions.
 
 ![](images/merge-pr.png  "Merged Pull Request")
+
+#### 5. Merge changes by your teammates
+
+
+```bash
+$ git remote add upstream https://github.com/Savidude/introduction-to-git.git
+$ git fetch upstream
+$ git pull upstream main
+$ git push origin main
+```
+
+![](images/git-merge.png  "Merge changes")
