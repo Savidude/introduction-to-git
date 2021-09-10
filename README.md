@@ -132,7 +132,7 @@ Once the project owners approve your changes, they can merge them on to the orig
 ```bash
 $ git remote add upstream https://github.com/Savidude/introduction-to-git.git
 $ git fetch upstream
-$ git pull upstream main
+$ git merge upstream main
 $ git push origin main
 ```
 
